@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentation on actix</title>
-    <link>https://matter-labs.github.io/franklin-webpage/docs/</link>
+    <link>https://franklin.network/docs/</link>
     <description>Recent content in Documentation on actix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://matter-labs.github.io/franklin-webpage/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://franklin.network/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What is Actix</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/whatis/</link>
+      <link>https://franklin.network/docs/whatis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/whatis/</guid>
+      <guid>https://franklin.network/docs/whatis/</guid>
       <description>Actix is Multiple Things Actix is a few things. The base of it is a powerful actor system for Rust on top of which the actix-web system is built. This is what you are most likely going to work with. What actix-web gives you is a fun and very fast web development framework.
 We call actix-web a small and pragmatic framework. For all intents and purposes it&amp;rsquo;s a microframework with a few twists.</description>
     </item>
     
     <item>
       <title>Installation</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/installation/</link>
+      <link>https://franklin.network/docs/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/installation/</guid>
+      <guid>https://franklin.network/docs/installation/</guid>
       <description>Installing Rust Since actix-web is a Rust framework you will need Rust to get started with it. If you don&amp;rsquo;t have it yet we recommend you use rustup to manage your Rust installation. The official rust guide has a wonderful section on getting started.
 We currently require at least Rust 1.24 so make sure you run rustup update to have the latest and greatest Rust version available. In particular this guide will assume that you actually run Rust 1.</description>
     </item>
     
     <item>
       <title>Getting Started</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/getting-started/</link>
+      <link>https://franklin.network/docs/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/getting-started/</guid>
+      <guid>https://franklin.network/docs/getting-started/</guid>
       <description>Getting Started Let’s write our first actix web application!
 Hello, world! Start by creating a new binary-based Cargo project and changing into the new directory:
 cargo new hello-world cd hello-world Now, add actix-web as dependencies of your project by ensuring your Cargo.toml contains the following:
@@ -45,10 +45,10 @@ A request handler is a function that accepts an HttpRequest instance as its only
     
     <item>
       <title>Application</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/application/</link>
+      <link>https://franklin.network/docs/application/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/application/</guid>
+      <guid>https://franklin.network/docs/application/</guid>
       <description>Writing an Application actix-web provides various primitives to build web servers and applications with Rust. It provides routing, middlewares, pre-processing of requests, post-processing of responses, websocket protocol handling, multipart streams, etc.
 All actix web servers are built around the App instance. It is used for registering routes for resources and middlewares. It also stores application state shared across all handlers within same application.
 Applications act as a namespace for all routes, i.</description>
@@ -56,10 +56,10 @@ Applications act as a namespace for all routes, i.</description>
     
     <item>
       <title>Server</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/server/</link>
+      <link>https://franklin.network/docs/server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/server/</guid>
+      <guid>https://franklin.network/docs/server/</guid>
       <description>The HTTP Server The HttpServer type is responsible for serving http requests.
 HttpServer accepts an application factory as a parameter, and the application factory must have Send + Sync boundaries. More about that in the multi-threading section.
 To bind to a specific socket address, bind() must be used, and it may be called multiple times. To bind ssl socket, bind_ssl() or bind_tls() should be used. To start the http server, use one of the start methods.</description>
@@ -67,10 +67,10 @@ To bind to a specific socket address, bind() must be used, and it may be called 
     
     <item>
       <title>Handlers</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/handlers/</link>
+      <link>https://franklin.network/docs/handlers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/handlers/</guid>
+      <guid>https://franklin.network/docs/handlers/</guid>
       <description>Request Handlers A request handler can be any object that implements Handler trait.
 Request handling happens in two stages. First the handler object is called, returning any object that implements the Responder trait. Then, respond_to() is called on the returned object, converting itself to a AsyncResult or Error.
 By default actix provides Responder implementations for some standard types, such as &amp;amp;&#39;static str, String, etc.
@@ -79,10 +79,10 @@ By default actix provides Responder implementations for some standard types, suc
     
     <item>
       <title>Extractors</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/extractors/</link>
+      <link>https://franklin.network/docs/extractors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/extractors/</guid>
+      <guid>https://franklin.network/docs/extractors/</guid>
       <description>Type-safe information extraction Actix provides facility for type-safe request information extraction. By default, actix provides several extractor implementations.
 Accessing Extractors How you access an Extractor depends on whether you are using a handler function or a custom Handler type.
 Within Handler Functions An Extractor can be passed to a handler function as a function parameter or accessed within the function by calling the ExtractorType::&amp;lt;&amp;hellip;&amp;gt;::extract(req) function.
@@ -91,10 +91,10 @@ Within Handler Functions An Extractor can be passed to a handler function as a f
     
     <item>
       <title>Errors</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/errors/</link>
+      <link>https://franklin.network/docs/errors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/errors/</guid>
+      <guid>https://franklin.network/docs/errors/</guid>
       <description>Errors Actix uses its own actix_web::error::Error type and actix_web::error::ResponseError trait for error handling from web handlers.
 If a handler returns an Error (referring to the general Rust trait std::error::Error) in a Result that also implements the ResponseError trait, actix will render that error as an HTTP response. ResponseError has a single function called error_response() that returns HttpResponse:
 pubtraitResponseError: Fail{fn error_response(&amp;amp;self)-&amp;gt; HttpResponse{HttpResponse::new(StatusCode::INTERNAL_SERVER_ERROR)}} A Responder coerces compatible Results into HTTP responses:</description>
@@ -102,20 +102,20 @@ pubtraitResponseError: Fail{fn error_response(&amp;amp;self)-&amp;gt; HttpRespon
     
     <item>
       <title>URL Dispatch</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/url-dispatch/</link>
+      <link>https://franklin.network/docs/url-dispatch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/url-dispatch/</guid>
+      <guid>https://franklin.network/docs/url-dispatch/</guid>
       <description>URL Dispatch URL dispatch provides a simple way for mapping URLs to Handler code using a simple pattern matching language. If one of the patterns matches the path information associated with a request, a particular handler object is invoked.
  A handler is a specific object that implements the Handler trait, defined in your application, that receives the request and returns a response object. More information is available in the handler section.</description>
     </item>
     
     <item>
       <title>Requests</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/request/</link>
+      <link>https://franklin.network/docs/request/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/request/</guid>
+      <guid>https://franklin.network/docs/request/</guid>
       <description>Content Encoding Actix automatically decompresses payloads. The following codecs are supported:
  Brotli Gzip Deflate Identity  If request headers contain a Content-Encoding header, the request payload is decompressed according to the header value. Multiple codecs are not supported, i.e: Content-Encoding: br, gzip.
 JSON Request There are several options for json body deserialization.
@@ -124,10 +124,10 @@ The first option is to use Json extractor. First, you define a handler function 
     
     <item>
       <title>Responses</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/response/</link>
+      <link>https://franklin.network/docs/response/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/response/</guid>
+      <guid>https://franklin.network/docs/response/</guid>
       <description>Response A builder-like pattern is used to construct an instance of HttpResponse. HttpResponse provides several methods that return a HttpResponseBuilder instance, which implements various convenience methods for building responses.
  Check the documentation for type descriptions.
  The methods .body, .finish, and .json finalize response creation and return a constructed HttpResponse instance. If this methods is called on the same builder instance multiple times, the builder will panic.
@@ -136,10 +136,10 @@ useactix_web::{HttpRequest,HttpResponse,http::ContentEncoding};fn index(req: &am
     
     <item>
       <title>Testing</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/testing/</link>
+      <link>https://franklin.network/docs/testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/testing/</guid>
+      <guid>https://franklin.network/docs/testing/</guid>
       <description>Testing Every application should be well tested. Actix provides tools to perform unit and integration tests.
 Unit Tests For unit testing, actix provides a request builder type and a simple handler runner. TestRequest implements a builder-like pattern. You can generate a HttpRequest instance with finish(), or you can run your handler with run() or run_async().
 useactix_web::{http,test,HttpRequest,HttpResponse,HttpMessage};fn index(req: &amp;amp;HttpRequest)-&amp;gt; HttpResponse{ifletSome(hdr)=req.headers().get(http::header::CONTENT_TYPE){ifletOk(s)=hdr.to_str(){returnHttpResponse::Ok().into()}}HttpResponse::BadRequest().into()}fn main(){letresp=test::TestRequest::with_header(&amp;#34;content-type&amp;#34;,&amp;#34;text/plain&amp;#34;).run(&amp;amp;index).unwrap();assert_eq!(resp.status(),http::StatusCode::OK);letresp=test::TestRequest::default().run(&amp;amp;index).unwrap();assert_eq!(resp.status(),http::StatusCode::BAD_REQUEST);} Integration tests There are several methods for testing your application.</description>
@@ -147,10 +147,10 @@ useactix_web::{http,test,HttpRequest,HttpResponse,HttpMessage};fn index(req: &am
     
     <item>
       <title>Middlewares</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/middleware/</link>
+      <link>https://franklin.network/docs/middleware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/middleware/</guid>
+      <guid>https://franklin.network/docs/middleware/</guid>
       <description>Middleware Actix&amp;rsquo;s middleware system allows us to add additional behavior to request/response processing. Middleware can hook into an incoming request process, enabling us to modify requests as well as halt request processing to return a response early.
 Middleware can also hook into response processing.
 Typically, middleware is involved in the following actions:
@@ -159,10 +159,10 @@ Typically, middleware is involved in the following actions:
     
     <item>
       <title>Static Files</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/static-files/</link>
+      <link>https://franklin.network/docs/static-files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/static-files/</guid>
+      <guid>https://franklin.network/docs/static-files/</guid>
       <description>Individual file It is possible to serve static files with a custom path pattern and NamedFile. To match a path tail, we can use a [.*] regex.
 externcrateactix_web;usestd::path::PathBuf;useactix_web::{App,HttpRequest,Result,http::Method,fs::NamedFile};fn index(req: &amp;amp;HttpRequest)-&amp;gt; Result&amp;lt;NamedFile&amp;gt;{letpath: PathBuf=req.match_info().query(&amp;#34;tail&amp;#34;)?;Ok(NamedFile::open(path)?)}fn main(){App::new().resource(r&amp;#34;/a/{tail:.*}&amp;#34;,|r|r.method(Method::GET).f(index)).finish();} Directory To serve files from specific directories and sub-directories, StaticFiles can be used. StaticFiles must be registered with an App::handler() method, otherwise it will be unable to serve sub-paths.
 externcrateactix_web;useactix_web::{App,fs};fn main(){App::new().handler(&amp;#34;/static&amp;#34;,fs::StaticFiles::new(&amp;#34;.&amp;#34;).unwrap().show_files_listing()).finish();} The parameter is the base directory.</description>
@@ -170,10 +170,10 @@ externcrateactix_web;useactix_web::{App,fs};fn main(){App::new().handler(&amp;#3
     
     <item>
       <title>Websockets</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/websockets/</link>
+      <link>https://franklin.network/docs/websockets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/websockets/</guid>
+      <guid>https://franklin.network/docs/websockets/</guid>
       <description>Actix supports WebSockets out-of-the-box. It is possible to convert a request&amp;rsquo;s Payload to a stream of ws::Message with a ws::WsStream and then use stream combinators to handle actual messages, but it is simpler to handle websocket communications with an http actor.
 The following is an example of a simple websocket echo server:
 useactix::*;useactix_web::*;/// Define http actor struct Ws;implActorforWs{type Context=ws::WebsocketContext&amp;lt;Self&amp;gt;;}/// Handler for ws::Message message implStreamHandler&amp;lt;ws::Message,ws::ProtocolError&amp;gt;forWs{fn handle(&amp;amp;mutself,msg: ws::Message,ctx: &amp;amp;mutSelf::Context){matchmsg{ws::Message::Ping(msg)=&amp;gt;ctx.pong(&amp;amp;msg),ws::Message::Text(text)=&amp;gt;ctx.text(text),ws::Message::Binary(bin)=&amp;gt;ctx.binary(bin),_=&amp;gt;(),}}}fn main(){App::new().resource(&amp;#34;/ws/&amp;#34;,|r|r.f(|req|ws::start(req,Ws))).finish();}  A simple websocket echo server example is available in the examples directory.</description>
@@ -181,10 +181,10 @@ useactix::*;useactix_web::*;/// Define http actor struct Ws;implActorforWs{type 
     
     <item>
       <title>HTTP/2.0</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/http2/</link>
+      <link>https://franklin.network/docs/http2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/http2/</guid>
+      <guid>https://franklin.network/docs/http2/</guid>
       <description>actix-web automatically upgrades connections to HTTP/2.0 if possible.
 Negotiation HTTP/2.0 protocol over tls without prior knowledge requires tls alpn.
  Currently, only rust-openssl has support.
@@ -194,19 +194,19 @@ Negotiation HTTP/2.0 protocol over tls without prior knowledge requires tls alpn
     
     <item>
       <title>Autoreloading</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/autoreload/</link>
+      <link>https://franklin.network/docs/autoreload/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/autoreload/</guid>
+      <guid>https://franklin.network/docs/autoreload/</guid>
       <description>Auto-Reloading Development Server During development it can be very handy to have cargo automatically recompile the code on change. This can be accomplished by using cargo-watch. Because an actix app will typically bind to a port for listening for incoming HTTP requests it makes sense to combine this with the listenfd crate and the systemfd utility to ensure the socket is kept open while the app is compiling and reloading.</description>
     </item>
     
     <item>
       <title>Databases</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/databases/</link>
+      <link>https://franklin.network/docs/databases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/databases/</guid>
+      <guid>https://franklin.network/docs/databases/</guid>
       <description>Diesel At the moment, Diesel 1.0 does not support asynchronous operations, but it&amp;rsquo;s possible to use the actix synchronous actor system as a database interface api.
 Technically, sync actors are worker style actors. Multiple sync actors can be run in parallel and process messages from same queue. Sync actors work in mpsc mode.
 Let&amp;rsquo;s create a simple database api that can insert a new user row into a SQLite table.</description>
@@ -214,10 +214,10 @@ Let&amp;rsquo;s create a simple database api that can insert a new user row into
     
     <item>
       <title>Sentry</title>
-      <link>https://matter-labs.github.io/franklin-webpage/docs/sentry/</link>
+      <link>https://franklin.network/docs/sentry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matter-labs.github.io/franklin-webpage/docs/sentry/</guid>
+      <guid>https://franklin.network/docs/sentry/</guid>
       <description>Sentry Crash Reporting Sentry is a crash reporting system that supports the failure crate which is the base of the actix error reporting. With a middleware it&amp;rsquo;s possible to automatically report server errors to Sentry.
 Middleware This middleware captures any error in the server error range (500 - 599) and sends the attached error to sentry with its stacktrace.
 To use the middleware the sentry crate needs to be initialized and configured and the sentry-actix middleware needs to be added.</description>
