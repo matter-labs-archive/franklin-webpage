@@ -3,112 +3,112 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://actix.rs/docs/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/whatis/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/whatis/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/installation/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/installation/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/getting-started/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/getting-started/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/application/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/application/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/server/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/server/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/handlers/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/handlers/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/extractors/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/extractors/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/errors/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/errors/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/url-dispatch/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/url-dispatch/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/request/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/request/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/response/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/response/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/testing/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/testing/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/middleware/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/middleware/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/static-files/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/static-files/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/websockets/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/websockets/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/http2/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/http2/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/autoreload/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/autoreload/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/databases/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/databases/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/docs/sentry/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/docs/sentry/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/categories/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://actix.rs/code/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/code/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/community/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/community/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/community/coc/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/community/coc/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/code/license/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/code/license/</loc>
   </url>
   
   <url>
-    <loc>https://actix.rs/tags/</loc>
+    <loc>https://matter-labs.github.io/franklin-webpage/tags/</loc>
     <priority>0</priority>
   </url>
   
